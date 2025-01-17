@@ -1,0 +1,90 @@
+# Site settings
+title: 穿越宇宙的流星
+SEOTitle: 李伟博的博客
+header-img: img/post-bg-desk.jpg
+email: zeek_beijing@126.com
+description: "与自己对话."
+keyword: "李伟博, zeek, 李伟博的博客, liweibo, weibo, Java, Web, BigData"
+url: "https://kinggggg.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/kinggggg/kinggggg.github.io" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "你的当下决定了你的未来"
+sidebar-avatar: /img/about-me.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false   
+github_username:    kinggggg 
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 9db04c75adad9c1ffaba                            #生成的clientID
+  clientSecret: d1dd3abf0fe7977e944b54bd3bb9b923027cb2e6    #生成的clientSecret
+  repo: kinggggg.github.io    #仓库名称
+  owner: kinggggg    #github用户名
+  admin: kinggggg
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: b50bf2b12b5338a1845e33832976fd68
+
+# Google Analytics
+ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "我的CSDN",
+        href: "https://blog.csdn.net/hello5orld"
+    }
+]
